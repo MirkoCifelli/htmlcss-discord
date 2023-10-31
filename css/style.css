@@ -23,9 +23,9 @@ hr{
     margin: 0 auto;
     width: 100%;;
 }
-.border-black{
-    border: 2px dashed black;
-}
+/* .border-black{ */
+    /* border: 2px dashed black; */
+
 .border-white{
     border: 2px dashed white;
 }
@@ -36,13 +36,14 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#add8e6 ;
+    background-image: url(../img/jumbo.png);
+    /* background-color:#add8e6 ; */
 }
 .header-bar{
     height: 80%;
     width: 1000px;
     display: flex;
-    background-color:#daa520 ;
+    /* background-color:#daa520 ; */
 }
 .logo{
     width: 25%;
@@ -60,24 +61,65 @@ nav ul{
     display: flex;
     column-gap: 1em;
 }
+li{
+    color: white;
+}
 .login{
     width: 25%;
-    display: flex;
+     display: flex; 
     justify-content: flex-end;
     align-items: center;
 }
+.button{
+    padding: .7rem 1.3rem;
+    border-radius: 1rem;
+    border: none;
+    justify-content: center;
+}
+
+.white-button{
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+.black-button{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
 /* big scatola */
 .big-scatola{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 400px;
-    background-color:#00008b;
+    /* background-color:#00008b; */
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    
 }
 .big-scatola-content{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
     height: 80%;
-    width: 55%;
-    background-color: #ee82ee;
+    width: 50%;
+    /* background-color: #ee82ee; */
+}
+.big-scatola-content > h1{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: white;
+    text-align: center;
+}
+.big-scatola-content > p{
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: white;
+    text-align: center;
+
 }
 
 
@@ -100,13 +142,26 @@ nav ul{
     height: 400px;
     width: 100%;
 }
+.pink >  h1 {
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.pink >  p{
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    text-align: center;
+} 
+
 .p-cont .blue{
     width: 60%;
-    background-color: #1E90FF;
+    /* background-color: #1E90FF; */
 }
 .p-cont .pink{
     width: 40%;
-    background-color: #FFC0CB;
+    height: 300px;
+    /* background-color: #FFC0CB; */
 }
 .p-cont-big{
     display: flex;
