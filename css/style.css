@@ -87,6 +87,10 @@ li{
     background-color: black;
     text-align: center;
 }
+.light-button{
+    background-color: #7289da;
+    color: white;
+}
 
 /* big scatola */
 .big-scatola{
@@ -164,8 +168,8 @@ li{
     /* background-color: #FFC0CB; */
 }
 .p-cont-big{
-    /* display: flex; */
-    height: 550px;
+    /* display: flex;  */
+    height: 800px;
     width: 100%;
 }
 
@@ -181,6 +185,15 @@ li{
     display: flex;
 
 } 
+
+.p-cont-big > h2{
+    font size: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
 .p-cont-big .green{
     width: 100%;
     /* background-color: green; */
@@ -191,6 +204,15 @@ li{
    justify-content: center;
    padding-left: 50px;
 }
+h2.star{
+    padding-top: 2rem;
+    width: 35%;
+    margin: 0 auto;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 /* footer */
 footer{
     padding: 2em 0;
@@ -199,25 +221,59 @@ footer{
 .footer-colonne{
     display: flex;
     height: 450px;
-    background-color: #20B2AA;
+    /* background-color: #20B2AA; */
 }
 .first-colonna{
     width: 30%;
-    background-color: #F08080;
+    /* background-color: #F08080; */
 }
 .other-colonna{
     width: calc(70% /4);
-    background-color: #20B2AA;
+    /* background-color: #20B2AA; */
 }
 .footer-botton {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 40px;
-    background-color: #7FFFD4;
+    /* background-color: #23272A;  */
 }
 
 .bottom{
     padding: 5px;
-    background-color: #F7AFB7;
+    /* background-color: #F7AFB7; */
+}
+.foto{
+    width: 2rem;
+}
+aside h3{
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.light-blue{
+    text-align: center;
+    color: #7289da;
+    padding-bottom: 10px;
+}
+span {
+    font-size: 2rem;
+    color: white;
+}
+i{
+    /* margin-top: 20px; */
+    font-size: 1.5rem;
+    margin top: 30px;
+}
+.other-colonna ul{
+    list-style-type: none;
+}
+.other-colonna a{
+    text-decoration: none;
+    color: white;
+}
+.other-colonna li{
+    padding: 10px 0;
+    padding-left: 70px;
+    text-align: initial;
 }
