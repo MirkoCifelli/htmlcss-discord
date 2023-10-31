@@ -64,6 +64,15 @@ nav ul{
 li{
     color: white;
 }
+.big-scatola-content {
+    text-align: center;
+    display: inline-block;
+    
+}
+.big-scatola-content a {
+    margin-top: 20px;
+    
+}
 .login{
     width: 25%;
      display: flex; 
@@ -105,9 +114,6 @@ li{
     
 }
 .big-scatola-content{
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
     height: 80%;
     width: 50%;
     /* background-color: #ee82ee; */
@@ -120,7 +126,7 @@ li{
 }
 .big-scatola-content > p{
     font-size: 1rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 50px;
     color: white;
     text-align: center;
 
