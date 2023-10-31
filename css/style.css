@@ -164,13 +164,32 @@ li{
     /* background-color: #FFC0CB; */
 }
 .p-cont-big{
-    display: flex;
+    /* display: flex; */
     height: 550px;
     width: 100%;
 }
+
+.p-cont-big > h1  {
+    font size: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.p-cont-big > p{
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+
+} 
 .p-cont-big .green{
     width: 100%;
-    background-color: green;
+    /* background-color: green; */
+}
+.p-cont-big > .green > img{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-left: 50px;
 }
 /* footer */
 footer{
