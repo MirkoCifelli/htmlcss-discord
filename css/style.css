@@ -171,14 +171,11 @@ li{
     height: 800px;
     width: 100%;
 }
-
-.p-cont-big > h1  {
-    font size: 2rem;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-    
+.p-cont-big h2{
+    font-size: 30px;
     text-align: center;
 }
+
 .p-cont-big > p{
     font-size: 1rem;
     text-align: center;
