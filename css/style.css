@@ -1,0 +1,149 @@
+/* 
+    RESET
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    GENERAL
+*/
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    margin: 2em 0;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;;
+}
+.border-black{
+    border: 2px dashed black;
+}
+.border-white{
+    border: 2px dashed white;
+}
+
+/* header */
+header{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#add8e6 ;
+}
+.header-bar{
+    height: 80%;
+    width: 1000px;
+    display: flex;
+    background-color:#daa520 ;
+}
+.logo{
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 1em;
+}
+.login{
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* big scatola */
+.big-scatola{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color:#00008b;
+}
+.big-scatola-content{
+    height: 80%;
+    width: 55%;
+    background-color: #ee82ee;
+}
+
+
+/* main */
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2em;
+}
+.section.white{
+    background-color: white;
+}
+.section.grey{
+    background-color: #D3D3D3;
+}
+.p-cont{
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+.p-cont .blue{
+    width: 60%;
+    background-color: #1E90FF;
+}
+.p-cont .pink{
+    width: 40%;
+    background-color: #FFC0CB;
+}
+.p-cont-big{
+    display: flex;
+    height: 550px;
+    width: 100%;
+}
+.p-cont-big .green{
+    width: 100%;
+    background-color: green;
+}
+/* footer */
+footer{
+    padding: 2em 0;
+    background-color: #212426;
+}
+.footer-colonne{
+    display: flex;
+    height: 450px;
+    background-color: #20B2AA;
+}
+.first-colonna{
+    width: 30%;
+    background-color: #F08080;
+}
+.other-colonna{
+    width: calc(70% /4);
+    background-color: #20B2AA;
+}
+.footer-botton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: #7FFFD4;
+}
+
+.bottom{
+    padding: 5px;
+    background-color: #F7AFB7;
+}
